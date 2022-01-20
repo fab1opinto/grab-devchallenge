@@ -1,0 +1,106 @@
+
+
+.ladoEsquerdo {
+    background-color: #4E5BEE;
+    width: 550px;
+    height: 900px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.classeLogo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+input[type="email"]{
+    background-image: url('assets/alternate_email_white_18dp.svg');
+    background-color: #4E5BEE;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    padding-left: 40px;
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    color: white;
+}
+
+input[type="password"] {
+    background-image: url('assets/lock_white_24dp.svg');
+    background-color: #4E5BEE;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    padding-left: 40px;
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    color: white;
+}
+
+.classeBotao {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+footer {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+#Link {
+    color: white;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif; font-weight: 900;
+}
+
+.ladoDireito {
+    width: 900px;
+    height: 800px;
+    margin-top: -60px;
+    margin-left: -200px;
+}
+
+.classeRes {
+    color: white;
+    text-align: center;
+}
+
+.classeMail {
+    color: white;
+    text-align: center;
+}
+
+#meu-elemento {
+    color: white;
+}
+
