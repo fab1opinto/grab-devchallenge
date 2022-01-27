@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grab - Login</title>
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <!--CSS-->
-    <link rel="stylesheet" href="estilo.css">
-    <!--Javascript-->
-    <script src="meujavascript.js"></script>
-    <!--Fonte Google-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="row">
-        <div class="col; ladoEsquerdo">
-        <img src="assets/logo-grab.svg" class="classeLogo"/>
-        
-        <form>
-            <input type="email" id="meu-elemento" required name="email" name="mail">
-         
-            <div class="classeRes" id="res"></div>
-            <br />
-            <input type="password" required name="pass" id="meu-pass" name="pass">
-            <br />
-            <button type="button" class="classeBotao" onclick="clicar();">Entrar</button>
-        </form>
 
-        <footer>
-            problemas para entrar?<br />
-            clique aqui
-        </footer>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grab - Login</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="estilo.css">
+  <!--Javascript-->
+  <script src="meujavascript.js"></script>
+  <!--Fonte Google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
 
+<body>
+  <div class="row">
+    
+    <div class="col; ladoEsquerdo">
+      <img src="assets/logo-grab.svg" class="classeLogo" />
+      <form>
+        <input type="email" id="meu-elemento" required name="email">
+        <div class="classeRes" id="res"></div>
+        <br />
+        <input type="password" required name="pass">
+        <br />
+        <button type="button" class="classeBotao" onclick="clicar();">Entrar</button>
+      </form>
 
-        <div class="col-md-7">
-        <img src="assets/undraw_interview_rmcf.svg" class="ladoDireito">
-        </div>
-  </body>
+      <div id="Arroba">
+        @
+      </div>
+
+      <footer>
+        problemas para entrar?<br />
+        clique aqui
+      </footer>
+
+    </div>
+
+    <div class="col-md-7">
+      <img src="assets/undraw_interview_rmcf.svg" class="ladoDireito">
+    </div>
+
+</body>
+
 </html>

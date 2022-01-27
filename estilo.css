@@ -17,8 +17,8 @@
     margin-top: 150px;
 }
 
-input[type="email"]{
-    background-image: url('assets/alternate_email_white_18dp.svg');
+
+input[type="email"] {
     background-color: #4E5BEE;
     background-repeat: no-repeat;
     background-position: 5%;
@@ -32,6 +32,7 @@ input[type="email"]{
     border: 2px solid white;
     color: white;
 }
+
 
 input[type="password"] {
     background-image: url('assets/lock_white_24dp.svg');
@@ -77,12 +78,6 @@ form {
     margin-top: 30px;
 }
 
-#Link {
-    color: white;
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif; font-weight: 900;
-}
-
 .ladoDireito {
     width: 900px;
     height: 800px;
@@ -95,12 +90,14 @@ form {
     text-align: center;
 }
 
-.classeMail {
-    color: white;
-    text-align: center;
-}
-
 #meu-elemento {
     color: white;
 }
 
+#Arroba {
+    color: white;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    left: 135px; top: 342px;
+}
