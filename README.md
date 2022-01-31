@@ -1,5 +1,6 @@
+![desktop-design](https://user-images.githubusercontent.com/52512005/151736936-6d861582-f44a-4afc-8ead-c8d944863b33.jpg)
+
 <p align="center">
-  ![desktop-design](https://user-images.githubusercontent.com/52512005/151736936-6d861582-f44a-4afc-8ead-c8d944863b33.jpg)
   <h3 align="center">Grab - Página de login</h3>
 </p>
 <p align="center">
