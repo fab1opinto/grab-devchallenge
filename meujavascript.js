@@ -4,8 +4,9 @@ function clicar() {
         alert('Preencha o campo Email');
     } if (document.getElementById("meu-pass").value.length < 3) {
         alert('Preencha o campo Senha');
-    } if (document.getElementById("meu-elemento").value == 'email@exemplo' && document.getElementById("meu-pass").value == '123456') {
+    } if (document.getElementById("meu-elemento").value == 'email@exemplo' && document.getElementById("meu-pass").value == '123456'){
         alert('Logado');
+        
     } if (document.getElementById("meu-elemento").value == '' && document.getElementById("meu-pass").value == '') {
         alert('Preencha os campos Email e Senha');
     } else {
