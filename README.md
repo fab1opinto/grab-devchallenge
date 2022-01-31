@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="design/desktop-design.jpg" alt="Logo" width="350">
+  ![desktop-design](https://user-images.githubusercontent.com/52512005/151736936-6d861582-f44a-4afc-8ead-c8d944863b33.jpg)
   <h3 align="center">Grab - Página de login</h3>
 </p>
 <p align="center">
